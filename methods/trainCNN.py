@@ -207,7 +207,7 @@ def train_model(x_trn, y_trn,
                 model_weights,
                 aug, d, note,
                 x_test=None,
-                n_epochs=300,
+                n_epochs=100,
                 batch_size=30):
     """
     train CNN
